@@ -6,7 +6,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CityListTest {
+<<<<<<< HEAD
     
+=======
+    //bs
+>>>>>>> 705b47a6553d108c866cf5274a4040a53021bfdf
     private CityList mockCityList() {
         CityList cityList = new CityList();
         cityList.add(mockCity());
