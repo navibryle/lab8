@@ -8,11 +8,17 @@ env:
 android:
   components:
 
-    
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - extra-android-support
 
   licenses:
-      
-
+      - 'android-sdk-preview-license-52d11cd2'
+      - 'android-sdk-license-.+'
+      - 'google-gdk-license-.+'
+yes | ~/Android/Sdk/tools/bin/sdkmanager --licenses
 before_install:
   - chmod +x gradlew
 before_script:
